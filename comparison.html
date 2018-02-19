@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <meta name="description" content="Latitude Weather Analysis">
+    <meta name="author" content="Beatriz Shetkar">
+    
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+    <script src="https://code.jquery.com/jquery-3.2.1.js"integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather Analysis Visualization</title>
+</head>
+
+<body style="background-color: lightgray">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" id="nav-title" href="index.html">Lattitude </a>
+            </div>    
+            <div class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="temp.html">Temperature</a>
+                            </li>
+                            <li>
+                                <a href="humid.html">Humidity</a>
+                            </li>
+                            <li>
+                                <a href="cloud.html">Cloudiness</a>
+                            </li>
+                            <li>
+                                <a href="wind.html">Wind Speed</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="comparison.html">Comparison</a></li>
+                    <li><a href="data.html">Data</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class = "text-center">Comparison: Latitude vs. X</h1>
+                <hr>
+                <section id="summary">
+                    <p>Click any plot for an in-depth analysis.</p>
+                </section>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <h3 class = "text-center">vs Max Temperture</h3>
+                        <a href="temp.html">
+                            <img class = "img img-responsive" id="landing-viz" src="charts\Lat_MaxTemp.png" alt="Temperature by Latitude">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <h3 class = "text-center">vs Humidity</h3>
+                        <a href="humid.html">
+                            <img class = "img img-responsive" id="landing-viz" src="charts\Lat_Humidity.png" alt="Cloudiness by Latitude">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <h3 class = "text-center">vs. Cloudiness</h3>
+                        <a href="cloud.html">
+                            <img class = "img img-responsive" id="landing-viz" src="charts\Lat_Cloudiness.png" alt="Windyness by Latitude">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <h3 class = "text-center">vs. Wind Speed</h3>
+                        <a href="wind.html">
+                            <img class = "img img-responsive" id="landing-viz" src="charts\Lat_WindSpeed.png" alt="Humidity by Latitude">
+                        </a>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>   
+    
+    <div class="footer">
+        <p class="m-0 text-center text-white">Beatriz Shetkar Data Analytics Bootcamp 2017-2018</p>
+    </div>
+    
+</body>
+</html>
