@@ -18,13 +18,9 @@ After assembling the dataset, the data is analyzed across the three climate zone
 Polar Zone). To showcase the relationship between Latitude vs.
 
 * Max Temperature 
-![myimage-alt-tag](https://github.com/beashetkar/HW12-Web-Visualization-Dashboard/blob/master/charts/Lat_MaxTemp.png)
 * Humidity 
-![myimage-alt-tag](https://github.com/beashetkar/HW12-Web-Visualization-Dashboard/blob/master/charts/Lat_Humidity.png)
 * Cloudiness 
-![myimage-alt-tag](https://github.com/beashetkar/HW12-Web-Visualization-Dashboard/blob/master/charts/Lat_Cloudiness.png)
 * Wind Speed 
-![myimage-alt-tag](https://github.com/beashetkar/HW12-Web-Visualization-Dashboard/blob/master/charts/Lat_WindSpeed.png)
 
 For more details on the study visit this link href="https://github.com/beashetkar/HW6_Python-APIs/" 
 
